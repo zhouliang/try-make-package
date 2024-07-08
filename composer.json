@@ -1,0 +1,21 @@
+{
+    "name": "larry/try-make-package",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Larry",
+            "email": "dev@xpens.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Flower\\Rose\\": "src/Flower/Rose",
+        "Flower\\Lily\\": "src/Flower/Lily"
+      }
+    }
+  
+}
